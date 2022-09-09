@@ -1,0 +1,14 @@
+.hb-header{
+    position: relative;
+    background: red;
+
+    &:hover{
+        background: blue;
+    }
+
+    .header-wrapper{
+        margin: 0 auto;
+        max-width: 1024px;
+        background-color: blue;
+    }
+}
